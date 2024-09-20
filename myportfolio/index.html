@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>personal portfoilo website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/de9fae08eb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" id="fas" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" id="fas" onclick="openmenu"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi,I'm<span> satish</span><br> kumar </h1>
+
+                </div>
+            </div>
+        </div>
+<!--------------about-------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="s5.png.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hi all,i'm am satish kumar i am currently pursuing B.tech final year in artificial intelligence and mechine learning   I am a passionate and dedicated student with a keen interest in software development and web design. With a strong foundation in programming languages like Python, HTML, CSS, and JavaScript, I enjoy turning ideas into functional and aesthetically pleasing digital experiences. I am constantly learning and experimenting with new technologies, aiming to build innovative solutions that solve real-world problems.
+                        </p>
+
+
+                        <div class="tab-titles">
+                            <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p> 
+                            <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>web Development</span><br>web app Development</li>
+                                <li><span>APP Development</span><br>Building android/ios apps</li>
+                            </ul>
+                            <p></p>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2025</span><br>B.tech in artificial intelligence and mechain learning</li>
+                                <li><span>2019-2022</span><br>Diploma in electrical and electronic engineering</li>
+                                <li><span>2018-2019</span><br>10th in state board of secondary school</li>
+                            </ul>
+                            <p></p>
+                        </div>
+                        <div class="tab-contents" id="certificates">
+                            <ul>
+                                <li><span>Hackton</span><br>Python Certificate</li>
+                                <li><span>NPTEL</span><br>Python for data science Certificate</li>
+                                <li><span>Internship</span><br>Nlp Certificate</li>
+                                <li><span>Codesoft</span><br>Data science Certificate</li>
+                            </ul>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>In Python programming,capable of developing automating tasks, and building scalable applications.</p>
+                <a href="#">learn more</a>
+            </div>
+           <div>
+            <i class="fa-brands fa-html5"></i>
+                <h2>Html</h2>
+                <p>Proficient in crafting clean, semantic HTML code for building accessible and well-structured web pages.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>css</h2>
+                <p>Skilled in designing visually appealing and responsive layouts using CSS, including animations and transitions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>Java Script</h2>
+                <p>To create interactive and dynamic web experiences, from simple scripts to full-scale web applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------projects----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="w-1.png">
+                <div class="layer">
+                    <h3>AI telebot</h3>
+                    <p>This bot can answer your queries,gives the information about current temperature about major cities and also can generate image based on our text.For this bot i have used gemeni_api,open_weather_api.</p>
+                    <a href="https://www.linkedin.com/posts/satish-kumar-19a143266_aimers-aimersociety-apsche-activity-7214187213037740032-F9Ki?utm_source=share&utm_medium=member_android"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w-4.jpeg">
+                <div class="layer">
+                    <h3>Medical field telebot</h3>
+                    <p>I trained a NLP question & answer telegram bot using labeled dataset on google colab,generating answers related to the medical field.</p>
+                    <a href="https://www.linkedin.com/posts/satish-kumar-19a143266_aimers-aimersociety-apsche-activity-7214187213037740032-F9Ki?utm_source=share&utm_medium=member_android"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w-3.png">
+                <div class="layer">
+                    <h3>power BI data visualization</h3>
+                    <p>I worked on visualizing lokshabha election results 2024 dataset.By creating a comprehensive dashboard featuring various charts and graphs.</p>
+                    <a href="https://www.linkedin.com/posts/satish-kumar-19a143266_saisatish-aimer-aimersociety-activity-7209416134784159744-xPJf?utm_source=share&utm_medium=member_android"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="w-7.png">
+                <div class="layer">
+                    <h3>Image-text bot</h3>
+                    <p>I trained a NLP telegram bot to generate text from images,providing descriptions and answering related questions about the image.</p>
+                    <a href="https://www.linkedin.com/posts/satish-kumar-19a143266_aimers-aimersociety-saisatish-activity-7209494815875432448-6EXw?utm_source=share&utm_medium=member_android"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w-6.jpeg">
+                <div class="layer">
+                    <h3>Weather telebot</h3>
+                    <p>I developed a weaather bot that provides real-time weather updates to users.This bot is designed to assist individuals in planning their daily activities efficiently</p>
+                    <a href="https://www.linkedin.com/posts/satish-kumar-19a143266_artificiallntelligence-weather-machinelearning-activity-7213966984063897602-LwQJ?utm_source=share&utm_medium=member_android"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w-2.png">
+                <div class="layer">
+                    <h3>Text-image bot</h3>
+                    <p>I developed an innovative text-image bot that generates stunning images based on user input.</p>
+                    <a href="https://www.linkedin.com/posts/satish-kumar-19a143266_aimers-aimersociety-datascience-activity-7214172337259077633-mWrU?utm_source=share&utm_medium=member_android"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/satish-kumar-19a143266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn">see more</a>
+    </div>
+</div>
+
+<!-------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>satishbokka2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6305259376</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/satish-kumar-19a143266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100063693587505&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/BokkaSatish2003"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="satish latest resume.pdf" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+
+        <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+        for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right ="0";
+            }
+            function closemenu(){
+                sidemenu.style.right ="-200px";
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxu7jPtnYMUwU9STeCCsD_5EcO8nMg8dEM01xORnAMsnulYSqYWsYUZUYHgkO2C5QMWlw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
